@@ -1,0 +1,77 @@
+#nav{
+    color:white;
+    text-transform:capitalize;
+    text-align:center;
+    font-size:24px;
+    background-color: #3F3F3F;
+    color: #f5f5f5;
+    font-weight:400; 
+    position: relative;
+    top: -25px;
+    height: 30px;  
+}
+#nav ul{
+    list-style-type:none;
+}
+#nav ul a{
+	white-space:nowrap;
+    display:table-cell;
+    vertical-align:middle;
+    height:30px;
+    width:190px;
+    text-decoration:none;
+}
+#nav li{
+    float:left;    
+    height:50px;
+    width:180px;
+    
+}
+#nav ul a:hover{
+    background-color: #f5f5f5;
+    color: #379B4A;
+}
+#nav a:link , #nav a:visited{
+    color:#f5f5f5;
+}
+#nav a:active{
+background-color:#333;
+}
+#nav li > ul{
+    display:none;
+    transition-property: all;
+    transition-duration: 150ms;
+    transition-timing-function: ease;
+}
+#nav li:hover > ul{
+    display:block;
+    height: 250px;
+    width: 983px;
+    border-left: 1px solid #379B4A;
+    border-right: 1px solid #379B4A;
+    border-bottom: 1px solid #379B4A;
+    text-align: left;
+     z-index:90;
+     position: absolute;
+     left: 0px;
+     top: 30px;
+     background-color: #f5f5f5;
+}
+#loginForm{
+    color: #333;
+    font-size :16px;
+    width: 600px;
+    position: relative;
+    left: 0px;
+}
+#loginForm label{
+    display: inline-block;
+    width: 100px;
+    
+}
+#error a:link,#error a:visited{
+    color:#333;
+    display: inline-block;
+    text-decoration:underline;
+    width: 200px;
+}

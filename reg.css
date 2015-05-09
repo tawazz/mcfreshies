@@ -1,0 +1,16 @@
+body {
+    width: 1024px;
+    background-color: #f7f7f7;
+    margin: auto;
+    color: #333;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+label{
+    display: inline-block;
+    width: 200px;
+}
+h2{
+    color: #Fa4b2a;
+    font-weight: 700;
+}

@@ -1,0 +1,45 @@
+
+.col{
+    width: 1024px;
+    border: 1px solid #f5f5f5;
+    float: left;
+    height: 50px;
+    color: #333;
+   
+}
+#searchForm input[type=text]{
+    height: 30px;
+    width: 350px
+}
+#searchForm input[type=image]{
+    position: relative;
+    bottom: -10px;
+    left: -50px;
+}
+#searchForm select{
+    width: 150px;
+}
+#searchForm label{
+    display: inline-block;
+    text-align: left;
+}
+
+.bar {
+    height: 50px;
+    width: 1020px;
+    background-color: #81D7B5;
+}
+.bar a:link, .bar a:visited {
+    color: #f5f5f5;
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+input[type=submit]{
+    background-color: #81D7B5;
+    color: #f5f5f5;
+    width: 100px;
+    height: 30px;
+}
